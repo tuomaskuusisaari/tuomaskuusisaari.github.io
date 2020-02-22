@@ -1,0 +1,250 @@
+* {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+}
+
+body {
+    background-image: url("Pics/Profiilisivu.png");
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#pro {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 39.09px;
+    margin-top: none;
+    margin-left: 25px;
+}
+
+#desc {
+    height: 140px;
+    width: 70%;
+    background-color: #24A6A6;
+    margin-top: 20px;
+    margin-left: 232px;
+    border-bottom-left-radius: 100px;
+    border-top-left-radius: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    
+}
+
+#b {
+    height: 100px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-right: 40px;
+}
+
+#back {
+    width: 100px;
+    height: 100px;
+}
+
+#d {
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+#sp {
+    margin-top: 50px;
+    width: 20%;
+    height: 70px;
+    background-color: #24A6A6;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#s {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 31.25px;
+    font-weight: 400;
+}
+
+#pt {
+    margin-top: 50px;
+    margin-left: 80%;
+    width: 20%;
+    height: 70px;
+    background-color: #24A6A6;    
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#p {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 31.25px;
+    font-weight: 400;
+}
+
+.left {
+    margin-top: 75px;
+    height: 300px;
+    width: 90%;
+    background-color: #248EA6;
+    border-bottom-right-radius: 150px;
+    border-top-right-radius: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.cleft {
+    width: 42.5%;
+    height: 300px;
+    margin-left: 10px;
+    background-color: #96D9C6;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.hleft {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 39.06px;
+    font-weight: 400;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.pleft {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    margin-left: 10px;
+    line-height: 25px;
+}
+
+.ileft {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.tleft {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.kleft {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    margin-left: 5px;
+}
+
+.pic {
+    width: 40px;
+    height: 40px;
+}
+
+.right {
+    margin-top: 75px;
+    margin-left: 10%;
+    height: 300px;
+    width: 90%;
+    background-color: #1A5A73;
+    border-bottom-left-radius: 150px;
+    border-top-left-radius: 150px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+}
+
+.i {
+    height: 298px;
+    width: 42.5%;
+    border: 1px solid black;
+}
+
+.cright {
+    width: 42.5%;
+    height: 300px;
+    margin-right: 10px;
+    background-color: #24A6A6;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+#scright {
+    width: 42.5%;
+    height: 300px;
+    margin-right: 10px;
+    background-color: #24A6A6;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.hright {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 39.06px;
+    font-weight: 400;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.pright {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    margin-left: 10px;
+    line-height: 25px;
+}
+
+.iright {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.tright {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    align-items: center;
+    margin-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.kright {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    margin-right: 5px;
+    text-align: right;
+}
+
+.see {
+    margin-left: 10px;
+}
+
+footer {
+    height: 75px;
+}
