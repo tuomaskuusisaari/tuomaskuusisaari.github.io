@@ -36,15 +36,15 @@ body {
     width: 100%;
     height: 80%;
     background-color: #96D9C6;
-    border-top-right-radius: 150px;
-    border-bottom-right-radius: 150px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
 }
 
 #int {
-    height: 90px;
+    height: 80px;
     width: 60%;
     background-color: #253B59;
     margin-top: 20px;
@@ -63,11 +63,13 @@ body {
     width: 70%;
 }
 
-#i {
+.i {
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     margin-top: 10px;
     margin-left: 10px;
+    line-height: 22px;
+    margin-right: 10px;
 }
 
 #a {
@@ -80,14 +82,12 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    flex: auto;
-
 }
 
 #me {
-    border-radius: 300px;
+    border-radius: 200px;
     width: 100%;
-    height: 69%;
+    height: max-content;
 }
 
 #m {
@@ -103,6 +103,7 @@ body {
     margin-left: 10px;
     margin-right: 10px; 
     margin-top: 5px;
+    line-height: 22px;
 }
 
 #col1 {
@@ -142,8 +143,8 @@ body {
     width: 100%;
     height: 69%;
     background-color: #96D9C6;
-    border-top-left-radius: 150px;
-    border-bottom-left-radius: 150px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -151,7 +152,7 @@ body {
 }
 
 #sk {
-    height: 90px;
+    height: 50px;
     width: 50%;
     background-color: #253B59;
     margin-top: 20px;
@@ -170,10 +171,167 @@ body {
     width: 70%;
 }
 
-#z {
+.z {
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     margin-top: 10px;
     margin-right: 10px;
     margin-left: 15px;
+    line-height: 22px;
+}
+
+#sup {
+    display: flex;
+    flex-direction: row;
+}
+
+#su {
+    display: flex;
+    flex-direction: row;
+    display: none;
+    margin-top: 20px;
+    width: 150px;
+    height: 100px;
+    background-color: #248EA6;
+    border-bottom-left-radius: 100px;
+    border-top-left-radius: 100px;
+    justify-content: center;
+    align-items: center;
+ }
+
+ #r {
+     width: 80%;
+     display: flex;
+     flex-direction: row-reverse;
+     justify-content: flex-start;
+ }
+
+
+@media screen and (max-width: 940px) {
+    .i { font-size: 14px; }
+
+    #lii { font-size: 14px; }
+
+    .z { font-size: 14px; }
+
+    #h { font-size: 25px; }
+
+    #s { font-size: 25px; }
+
+    #m { font-size: 25px; }
+}
+
+@media screen and (max-width: 780px) {
+    .i { line-height: 18px; }
+
+    #lii { line-height: 18px; }
+
+    .z { line-height: 18px; }
+
+    #h { font-size: 20px; }
+
+    #s { font-size: 20px; }
+
+    #m { font-size: 20px; }
+
+    #goback {
+        width: 150px;
+        height: 100px;
+    }
+
+    #back {
+        height: 75px;
+        width: 75px;
+    }
+
+    #b {
+        height: 75px;
+        width: 75px;
+    }
+}
+
+@media screen and (max-width: 625px) {
+    body {
+        flex-direction: column;
+    }
+
+    .col {
+        padding-bottom: 50px;
+        width: 100%;
+    }
+
+    #col1 {
+        width: 100%;
+    }
+
+    #ski { 
+        width: 90%;
+        margin-left: 10%;
+    }
+
+    #hob {
+        width: 90%;
+        margin-right: 10%;
+    }
+
+    .i {
+        line-height: 22px;
+        font-size: 16px;
+    }
+
+    #lii {         
+        line-height: 22px;
+        font-size: 16px;
+    }
+
+    .z { 
+        line-height: 22px;
+        font-size: 16px;
+    }
+
+    #h { font-size: 31.25px; }
+
+    #s { font-size: 31.25px; }
+
+    #m { font-size: 31.25px; }
+
+    #goback { display: none }
+
+    #su {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #me {
+        height: 150px;
+        width: 150px;
+        border-radius: 50px;
+    }
+
+    #a {
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+        height: 300px;
+        justify-content: flex-start;
+        align-content: center;
+        align-items: center;
+    }
+
+}
+
+@media screen and (max-width: 420px) {
+    #ski { height: 450px; }
+}
+
+@media screen and (max-width: 350px) {
+    #h { font-size: 25px; }
+
+    #hob { height: 550px; }
+
+    #p { font-size: 31.25px; }
+}
+
+#b:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
 }
