@@ -127,7 +127,7 @@ main {
 
 .hleft {
     font-family: 'Roboto Condensed', sans-serif;
-    font-size: 39.06px;
+    font-size: 31.25px;
     font-weight: 400;
     margin-left: 10px;
     margin-top: 5px;
@@ -209,7 +209,7 @@ main {
 
 .hright {
     font-family: 'Roboto Condensed', sans-serif;
-    font-size: 39.06px;
+    font-size: 31.25px;
     font-weight: 400;
     margin-left: 10px;
     margin-top: 5px;
@@ -248,8 +248,195 @@ main {
 
 .see {
     margin-left: 10px;
+    font-size: 14px;
 }
+
+#top1 { display: none; }
 
 footer {
     height: 75px;
+}
+
+@media screen and (max-width: 1200px) {
+    .hright { font-size: 25px; }
+    .hleft {  font-size: 25px; }
+    .pleft { font-size: 14px; }
+    .pright { font-size: 14px; }
+    .see { font-size: 12px; }
+}
+
+@media screen and (max-width: 1031px) {
+    #top { font-size: 14px; }
+
+    .i { 
+        width: 20%;
+        height: 50%;
+    }
+
+    .cleft { width: 60%; }
+
+    .cright { width: 60%; }
+
+    #scright { width: 60%; }
+
+    .right { align-items: center; }
+
+    .left { align-items: center; }
+
+    #s { font-size: 25px; }
+
+    #b {
+        height: 75px;
+        width: 75px;
+    }
+
+    #back {
+        height: 75px;
+        width: 75px;
+    }
+
+    #top {
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+}
+
+@media screen and (max-width: 880px) {
+    #pro { font-size: 31.25px; }
+
+    #desc {
+        width: 100%;
+        margin-left: 50px;
+    }
+
+    #s { margin-left: 10px; }
+}
+
+@media screen and (max-width: 746px) {
+    #pro { 
+        font-size: 25px;
+        margin-left: 15px;
+    }
+
+    .i { display: none; }
+
+    .pic {
+        width: 20px;
+        height: 20px;
+    }
+
+    .kleft { font-size: 12px; }
+
+    .kright { font-size: 12px; }
+
+    .cleft { width: 75%; }
+
+    .cright { width: 85%; }
+
+    #scright { width: 85%; }
+
+    .hleft { font-size: 20px; }
+
+    .hright { font-size: 20px; }
+
+    #desc { margin-left: 10px;}
+
+    .right { 
+        margin-left: 2.5%; 
+        width: 97.5%;
+        border-bottom-left-radius: 50px;
+        border-top-left-radius: 50px;
+    }
+
+    .left { 
+        width: 97.5%;
+        border-bottom-right-radius: 50px;
+        border-top-right-radius: 50px;
+    }
+    
+    .tleft {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .tright {
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+}
+
+@media screen and (max-width: 590px) {
+
+    #desc { 
+        font-size: 12px;
+        border-bottom-left-radius: 20px;
+        border-top-left-radius: 20px;
+    }
+
+    #top {
+        font-size: 12px;
+    }
+
+    #sp {
+        border-bottom-right-radius: 10px;
+        border-top-right-radius: 10px;
+     }
+
+
+}
+
+@media screen and (max-width: 477px) {
+    .pleft {
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .pright {
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    #s { font-size: 20px; }
+
+    .cleft { margin-left: 0px; }
+
+    .cright { margin-right: 0px; }
+
+    #scright { margin-right: 0px; }
+
+    #b {  margin-right: 10px;}
+
+    .hleft { font-size: 16px; }
+
+    .hright { font-size: 16px; }
+}
+
+@media screen and (max-width: 400px) {
+    #top { display: none; }
+
+    #top1 {
+        display: contents;
+        font-size: 12px;
+    }
+
+    #d {
+        margin-left: 10px;
+    }
+
+    #pro { font-size: 20px; }
+
+    #s {
+        font-size: 16px;
+        margin-left: 5px;
+    }
+
+    .pic {
+        width: 15px;
+        height: 15px;
+    }
+
+    .kleft { font-size: 10px; }
+
+    .kright { font-size: 10px; }
+
 }
