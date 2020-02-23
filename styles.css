@@ -279,16 +279,6 @@ header {
     margin-top: 20px;     
   }
 
-  .btn:hover {
-    width: 200%;
-    height: 80px;
-    transition: width 0.5s, height 0.5s;
-  }
-  
-  .btn:active {
-    background-color: #253B59;
-  }
-
   #feat {
     height: 910px;
     border-top-left-radius: 50px;
@@ -343,18 +333,34 @@ header {
 }
 
 .btn:hover {
-  width: 62.5%;
-  height: 80px;
-  transition: width 0.5s, height 0.5s;
+  transform: scale(1.1);
+  transition: 0.5s;
 }
 
 .btn:active {
-  background-color: #253B59;
+  background-color: #70BAFF;
 }
 
 #cv:hover {
-  background-color: #1A5A73;
-  height: 110px;
-  width: 110px;
-  transition: width 0.5s, height 0.5s;
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+
+#cv:active {
+  background-color: #70BAFF;
+}
+
+#l:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+
+#li:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+
+.p:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
 }
