@@ -19,6 +19,7 @@ header {
   display: flex;
   justify-content: flex-start;
   align-content: center;
+  align-items: center;
   flex-direction: row-reverse;
   margin-right: 2%;
   flex: auto;
@@ -26,15 +27,15 @@ header {
   background-color: #253B59;
 }
 
-#linked {
+.linked {
   border-radius: 100%;
   width: 100px;
   height: 100px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-#l {
-  padding-right: 2%;
+.l {
+  padding-right: 10px;
 }
 
 #cv {
@@ -48,7 +49,7 @@ header {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   height: 100px;
   width: 100px;
-  margin-right: 2%;
+  margin-right: 5px;
   text-decoration: none;
 }
 
@@ -330,6 +331,13 @@ header {
 
 @media screen and (max-width: 390px) {
   #f { font-size: 25px; }
+
+  #cv {
+    height: 75px;
+    width: 75px;
+  }
+
+  #c { font-size: 39.06px; }
 }
 
 .btn:hover {
@@ -350,7 +358,7 @@ header {
   background-color: #70BAFF;
 }
 
-#l:hover {
+.l:hover {
   transform: scale(1.1);
   transition: 0.5s;
 }
