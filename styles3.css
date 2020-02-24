@@ -1,3 +1,5 @@
+/* GENERAL */
+
 * {
     font-family: 'Roboto Condensed', sans-serif;
     font-family: 'Montserrat', sans-serif;
@@ -8,10 +10,28 @@ body {
     background-image: url("Pics/Profiilisivu.png");
 }
 
+.see {
+    margin-left: 10px;
+    font-size: 14px;
+}
+
+.pic {
+    width: 40px;
+    height: 40px;
+}
+
+.i {
+    height: 298px;
+    width: 42.5%;
+    border: 1px solid black;
+}
+
 @viewport {
     width: device-width ;
     zoom: 1.0 ;
 }
+
+/* TOP SECTION OF THE PAGE */
 
 header {
     display: flex;
@@ -103,6 +123,8 @@ main {
     font-weight: 400;
 }
 
+/* PROJECTS THAT COME FROM THE LEFT */
+
 .left {
     margin-top: 75px;
     height: 300px;
@@ -163,10 +185,7 @@ main {
     margin-left: 5px;
 }
 
-.pic {
-    width: 40px;
-    height: 40px;
-}
+/* PROJECTS THAT COME FROM THE RIGHT */
 
 .right {
     margin-top: 75px;
@@ -179,12 +198,6 @@ main {
     display: flex;
     flex-direction: row-reverse;
     justify-content: flex-start;
-}
-
-.i {
-    height: 298px;
-    width: 42.5%;
-    border: 1px solid black;
 }
 
 .cright {
@@ -246,16 +259,17 @@ main {
     text-align: right;
 }
 
-.see {
-    margin-left: 10px;
-    font-size: 14px;
-}
+/* TEXT THAT SHOWS WHEN THE SCREEN WIDTH IS NARROW ENOUGH */
 
 #top1 { display: none; }
+
+/* FOOTER */
 
 footer {
     height: 75px;
 }
+
+/* SUPPORT FOR DIFFERENT SIZES OF SCREENS */
 
 @media screen and (max-width: 1200px) {
     .hright { font-size: 25px; }
@@ -439,6 +453,8 @@ footer {
     #desc { margin-left: 5px; }
 
 }
+
+/* ANIMATIONS FOR HOVERING */
 
 #b:hover {
     transform: scale(1.1);
